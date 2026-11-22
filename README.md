@@ -7,7 +7,8 @@ SkillScope 帮你检查 AI Agent 使用的 `SKILL.md`。它会把文档拆成六
 需要 Node.js 20.19 以上，或 22.12 以上版本（建议使用 Node.js 22）。打开 PowerShell，运行：
 
 ```powershell
-cd D:\skillscope
+git clone https://github.com/15319363681/skillscope.git
+cd skillscope
 npm install
 npm run build
 npm start
@@ -89,3 +90,7 @@ npm run test:ui
 $env:CHROME_PATH = 'C:\Program Files\Google\Chrome\Application\chrome.exe'
 npm run test:ui
 ```
+
+## 开源许可
+
+本项目采用 [MIT 许可证](LICENSE)。你可以使用、修改和分发代码，也可以用于商业项目；分发时请保留原有的版权和许可声明。
